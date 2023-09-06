@@ -13,6 +13,10 @@ body {
     color: #3d3d3d;
 }
 
+.section-books {
+    margin: 100px 5% 0 5%
+}
+
 body {
     background-color: var(--background-blanco);
     font-size: 14px;
@@ -21,7 +25,7 @@ body {
 }
 
 .frase {
-    margin: 5% 10% ;
+    margin: 5% 10%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -32,12 +36,14 @@ section {
 }
 
 .title-section {
+    background-color: #F2F2F2;
+    width: 400px;
+    margin-bottom: 50px;
     text-transform: uppercase;
-    border-bottom: 2px solid #3d3d3d;
-    padding-bottom: 20px;
-    text-align: left;
-    padding-left: 20px;
-    border-radius: 10px;
+    padding: 20px;
+    -webkit-clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+    border-left: 20px solid #FFCD00;
 }
 
 .swiper {
@@ -46,8 +52,8 @@ section {
 }
 
 .swiper-slide {
-    width: 300px;
-    height: 500px;
+    width: 350px;
+    height: 580px;
     background-color: #F2F2F2;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     padding: 40px;
@@ -68,12 +74,12 @@ section {
 }
 
 .icons img {
-    width: 120px;
+    width: 50px;
 }
 
 .product-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .product-txt {
@@ -92,16 +98,13 @@ section {
     font-size: 15px;
     color: #7e7e7e;
     font-weight: bold;
-    margin: 10px;
+    margin: 5px;
 }
 
 .product-img {
-    flex-basis: 50%;
+    width: 220px;
 }
 
-.product-img img {
-    width: 120px;
-}
 
 .ftt-1 {
     background-color: #FFCD00;
@@ -118,7 +121,7 @@ section {
     color: #3d3d3d;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 25px;
     transition: 0.5s;
 }
 
@@ -126,4 +129,17 @@ section {
     transition: 0.4s;
     border: 1px solid #FFCD00;
     background-color: #FFCD00;
+}
+
+footer {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 58%);
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+}
+
+footer img {
+    width: 100px;
 }
