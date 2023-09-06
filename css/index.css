@@ -1,3 +1,129 @@
 .header {
-    background-color: antiquewhite;
+    background-color: var(--background-gris);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    font-family: var(--letra);
+    color: #3d3d3d;
+}
+
+body {
+    background-color: var(--background-blanco);
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.frase {
+    margin: 5% 10% ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    margin: 3%;
+}
+
+.title-section {
+    text-transform: uppercase;
+    border-bottom: 2px solid #3d3d3d;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.swiper {
+    width: 95%;
+    padding: 20px 10px;
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 500px;
+    background-color: #F2F2F2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 10px;
+    color: #3d3d3d;
+}
+
+.icons img {
+    width: 120px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-txt h3 {
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
+.product-txt span {
+    font-size: 15px;
+    color: #7e7e7e;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.product-img {
+    flex-basis: 50%;
+}
+
+.product-img img {
+    width: 120px;
+}
+
+.ftt-1 {
+    background-color: #FFCD00;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid #3d3d3d;
+    border-radius: 25px;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.btn-1:hover {
+    transition: 0.4s;
+    border: 1px solid #FFCD00;
+    background-color: #FFCD00;
 }
