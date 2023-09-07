@@ -21,7 +21,7 @@
 
 <body>
     <header class="header">
-        <a href="https://www.ugc.edu.co/rucc"><img src="./img/LOGO RUCC COLOR-b49a6307.webp"alt="RUUC-UGC"></a>
+        <a href="https://www.ugc.edu.co/rucc"><img src="./img/LOGO RUCC COLOR-b49a6307.webp" alt="RUUC-UGC"></a>
     </header>
 
     <section class="frase">
@@ -46,26 +46,11 @@
                         </div>
                         <div class="product-content">
                             <div class="product-txt"><img class="product-img" src="/img/portadas/1.png" alt="portada">
-                                <h3>Carta Encíclica Laudato si" del Santo Padre Francisco sobre el cuidado de la casa
+                                <h3>Carta Encíclica Laudato si' del Santo Padre Francisco sobre el cuidado de la casa
                                     común</h3><span>Papa Francisco</span><span class="ftt-1">Documento</span>
                             </div>
                         </div><a
                             href="https://www.vatican.va/content/dam/francesco/pdf/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si_sp.pdf"
-                            class="btn-1" target="_blank">Comenzar a leer</a>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="icons">
-                            <i class="fa-solid fa-circle-arrow-left"></i>
-                            <img src="./img/LOGO RUCC BLANCO.png" alt="RUUC-UGC">
-                            <i class="fa-solid fa-circle-arrow-right"></i>
-                        </div>
-                        <div class="product-content">
-                            <div class="product-txt"><img class="product-img" src="/img/portadas/2.png" alt="portada">
-                                <h3>Carta Encíclica Fratelli Tutti del Santo Padre Francisco sobre la fraternidad y la
-                                    amistad social</h3><span>Papa Francisco</span><span class="ftt-1">Documento</span>
-                            </div>
-                        </div><a
-                            href="https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.pdf"
                             class="btn-1" target="_blank">Comenzar a leer</a>
                     </div>
                     <div class="swiper-slide">
@@ -165,8 +150,7 @@
                                     posible</h3><span>Espitia Hernández, L. D. Rivera Cumbe, M. & Barón Gil, O.
                                 </span><span class="ftt-1">Libro</span>
                             </div>
-                        </div><a
-                            href="https://elibro-net.bibliodigital.ugc.edu.co/es/lc/ugc/titulos/129150"
+                        </div><a href="https://elibro-net.bibliodigital.ugc.edu.co/es/lc/ugc/titulos/129150"
                             class="btn-1" target="_blank">Comenzar a leer</a>
                     </div>
                     <div class="swiper-slide">
@@ -371,6 +355,21 @@
         <div class="carrusel">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="icons">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <img src="./img/LOGO RUCC BLANCO.png" alt="RUUC-UGC">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-txt"><img class="product-img" src="/img/portadas/2.png" alt="portada">
+                                <h3>Carta Encíclica Fratelli Tutti del Santo Padre Francisco sobre la fraternidad y la
+                                    amistad social</h3><span>Papa Francisco</span><span class="ftt-1">Documento</span>
+                            </div>
+                        </div><a
+                            href="https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.pdf"
+                            class="btn-1" target="_blank">Comenzar a leer</a>
+                    </div>
                     <div class="swiper-slide">
                         <div class="icons">
                             <i class="fa-solid fa-circle-arrow-left"></i>
@@ -773,7 +772,12 @@
                 slideShadows: true,
                 rotate: 0,
                 stretch: 0
+            },
+            navigation: {
+                nextEl: ".fa-circle-arrow-right",
+                prevEl: ".fa-circle-arrow-left",
             }
+
         })
     </script>
 </body>
